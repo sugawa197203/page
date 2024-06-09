@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono, Noto_Sans_JP, Orbitron } from "next/font/google";
+import { JetBrains_Mono, Noto_Sans_JP, Orbitron } from "next/font/google";
 import "./globals.css";
 import { sharedMetadata } from "@/app/lib/sharedmetadata";
 import type { ReactNode } from "react";
 import classNames from "classnames";
-
-const inter = Inter({ subsets: ["latin"] });
 
 const notoSansJP = Noto_Sans_JP({
   variable: '--font-family-noto-sans-jp',
