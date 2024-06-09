@@ -1,11 +1,6 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
       <div className="min-h-screen bg-[#f0f0f0] font-noto-sans-jp">
-          <header className="bg-[#121212] text-white p-4">
-              <h1 className="text-3xl font-bold">SUGAWA</h1>
-          </header>
           <main className="container mx-auto p-6">
               <section className="mb-6">
                   <h2 className="text-2xl font-semibold mb-2">Profile</h2>
@@ -16,24 +11,38 @@ export default function Home() {
               <section className="mb-6">
                   <h2 className="text-2xl font-semibold mb-2">Skils</h2>
                   <ul className="list-disc list-inside">
-                      <li>explosion magic</li>
+                      <li>Unity</li>
+                      <li>C#</li>
                   </ul>
               </section>
               <section className="mb-6">
                   <h2 className="text-2xl font-semibold mb-2">Projects</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="border p-4 bg-white shadow-sm">
-                          <h3 className="font-bold mb-2">Will write it later</h3>
+                          <h3 className="font-bold mb-2">イラストレース</h3>
                           <p>
-                              ^w^
+                              書いた絵で遊べるレースゲーム
+                          </p>
+                      </div>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div className="border p-4 bg-white shadow-sm">
+                          <h3 className="font-bold mb-2">Avoid Game</h3>
+                          <p>
+                              モーションキャプチャーで遊べるゲーム
+                          </p>
+                      </div>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div className="border p-4 bg-white shadow-sm">
+                          <h3 className="font-bold mb-2">BeABachelor</h3>
+                          <p>
+                              単位を回収するゲーム
                           </p>
                       </div>
                   </div>
               </section>
           </main>
-          <footer className="bg-[#121212] text-white p-4 text-center">
-              &copy; 2023 SUGAWA
-          </footer>
       </div>
   );
 }
