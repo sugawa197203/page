@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-      <div className="min-h-screen bg-[#f0f0f0] font-noto-sans-jp">
+      <div className="min-h-screen font-noto-sans-jp">
           <main className="container mx-auto p-6">
               <section className="mb-6">
                   <h2 className="text-2xl font-semibold mb-2">Profile</h2>
