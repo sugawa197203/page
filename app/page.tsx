@@ -18,7 +18,7 @@ export default function Home() {
               <section className="mb-6">
                   <h2 className="text-2xl font-semibold mb-2">Projects</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div className="border p-4 bg-white shadow-sm">
+                      <div className="border p-4 shadow-sm">
                           <h3 className="font-bold mb-2">イラストレース</h3>
                           <p>
                               書いた絵で遊べるレースゲーム
@@ -26,7 +26,7 @@ export default function Home() {
                       </div>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div className="border p-4 bg-white shadow-sm">
+                      <div className="border p-4 shadow-sm">
                           <h3 className="font-bold mb-2">Avoid Game</h3>
                           <p>
                               モーションキャプチャーで遊べるゲーム
@@ -34,7 +34,7 @@ export default function Home() {
                       </div>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div className="border p-4 bg-white shadow-sm">
+                      <div className="border p-4 shadow-sm">
                           <h3 className="font-bold mb-2">BeABachelor</h3>
                           <p>
                               単位を回収するゲーム
